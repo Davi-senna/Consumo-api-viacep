@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="correio.css">
+    <script src="correio.js"></script>
+    <title>Correios</title>
+</head>
+
+<body class="background-black">
+    <header class="background-amarelo-claro">
+        <img src="img/correios-logo-5.png" alt="..." class="logo-pg-principal">
+    </header>
+    <section class="container-principal">
+        <section class="area-json display-flex">
+            <h1>
+                Digite o CEP do endereço
+            </h1>
+            <h1>desejado</h1>
+            <input placeholder="Cep" type="text" id="cep">
+            <button onclick="pesquisar()" class="button-pesquisar display-flex">Pesquisar</button>
+        </section>
+        <section class="display-flex inf">
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">Logradouro:</p>
+                    <p class="text-json" id="log-json"></p>
+                </div>
+            </div>
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">Bairro:</p>
+                    <p class="text-json" id="bairro-json"></p>
+                </div>
+            </div>
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">UF:</p>
+                    <p class="text-json" id="uf-json"></p>
+                </div>
+            </div>
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">IBGE:</p>
+                    <p class="text-json" id="ibge-json"></p>
+                </div>
+            </div>
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">DDD:</p>
+                    <p class="text-json" id="ddd-json"></p>
+                </div>
+            </div>
+            <div class="container m240">
+                <div class="json">
+                    <p class="f13">SIAFI:</p>
+                    <p class="text-json" id="siafi-json"></p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>

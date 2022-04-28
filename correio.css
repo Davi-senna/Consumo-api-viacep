@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+header {
+    padding: 5px 0 0 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    margin-top: 70px;
+    width: 600px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 255px;
+    border-style: none;
+}
+
+p {
+    color: black;
+    font-size: 10px;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.tamanho-100{
+height: 100%;
+}
+.background-amarelo-claro {
+    background-color: #DEE20B;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.pg-inicial {
+    flex-direction: row;
+}
+
+.container-logo {
+    width: 63%;
+    margin-top: 280px;
+    margin-left: 20px;
+}
+
+
+.container-text {
+    font-size: 22px;
+    width: 37%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+.area-json {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.button-pesquisar {
+    justify-content: center;
+    background-color: #DEE20B;
+    border-style: none;
+    border-radius: 255px;
+    padding: 4px;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 160px;
+    color: black;
+}
+
+.button-pesquisar:active {
+    background-color: #ADB009;
+}
+
+.button-entrar {
+    justify-content: center;
+    border-style: none;
+    border-radius: 255px;
+    padding: 4px;
+    margin-right: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 160px;
+    box-shadow: 0 7px 30px #ADB009;
+    height: 30px;
+}
+
+.button-entrar:active {
+    box-shadow: none;
+}
+
+.json {
+    background-color: #DEE20B;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 904px;
+    height: 185px;
+}
+
+.logo-pg-principal {
+    width: 200px;
+    height: 41px;
+}
+.inf {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.m240 {
+    margin-left: 265px;
+}
+
+.text-json {
+    margin-top: 10px;
+}
+
+.f13 {
+    font-size: 13px;
+}
